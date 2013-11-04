@@ -4,9 +4,7 @@
     <style type="text/css">
 
 
-   .style
-   {
-   }
+  
         .style1 img
         {
              position:relative;
