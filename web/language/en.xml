@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language value="English">
+
+
+  <!--MasterPage -->
+  <MasterPage>
+    <Button>
+      <btnSearch>Search</btnSearch>
+      <btnLogin>LoginAdminPanel</btnLogin>
+      
+    </Button>
+    <Label>
+      <lblserphone>Service Call</lblserphone>
+      <lbtnshoucang>Collect</lbtnshoucang>
+      <lbltemp>Waiting for update...</lbltemp>
+      <lblfooter>◎2008-2010 Chenen International Trading LTD.  Copyright  All Rights Reserved (粤ICP备05132975号-1)</lblfooter>
+      <Label1>+86-0760-22222813</Label1>
+    </Label>
+    <MenuItem>
+      <MenuItem1>Home</MenuItem1>
+      <MenuItem2>AboutUs</MenuItem2>
+      <MenuItem3>GermanBranch</MenuItem3>
+      <MenuItem4>Product</MenuItem4>
+      <MenuItem5>Partners</MenuItem5>
+      <MenuItem6>LeaveMessage</MenuItem6>
+      <MenuItem7>Jobs</MenuItem7>
+      <MenuItem8>CantactUs</MenuItem8>
+    </MenuItem>
+    <LinkButton>
+      <lbtncn>
+        
+        Chinese
+      </lbtncn>
+      <lbtnen>
+English
+
+      </lbtnen>
+      
+    </LinkButton>
+  </MasterPage>
+
+  <!--Default -->
+  <Default>
+
+    <Label>
+      <lbltitleproduct>Products Exhibition</lbltitleproduct>
+      <lblnewsTitle>Dynamic Enterprise</lblnewsTitle>
+      <lblsAboutus>About Us</lblsAboutus>
+      <lblContactus>Contact Us</lblContactus>
+      <lblcontitle1>Chenen</lblcontitle1>
+      <lblcontitle2></lblcontitle2>
+      <lblcontitle3></lblcontitle3>
+      <lblcontitle4>International Trading Ltd.</lblcontitle4>
+      
+      
+      <lblsAddrtitle>Address：</lblsAddrtitle>
+      <lblsAddr>52# Yonghua Road, Dongsheng Town, Zhongshan City, Guangdong Province, China</lblsAddr>
+      <lblsPhonetitle>Phone：</lblsPhonetitle>
+      <lblsPhone>+86-0760-22222813</lblsPhone>
+      <lblsFaxtitle>Fax：</lblsFaxtitle>
+      <lblsFax>+86-0760-22222689</lblsFax>
+      <lblsWebtitle>Web：</lblsWebtitle>
+      <lblsWeb>www.chenen.com</lblsWeb>
+      <lblsEmailtitle>Email：</lblsEmailtitle>
+      <lblsEmail>benhsiao@chenen.com</lblsEmail>
+    </Label>
+    
+    
+  </Default>
+  
+  
+  
+  
+  <!--Aboutus -->
+  <Aboutus>
+
+    <Label>
+      <lbltitle1>About</lbltitle1>
+
+      <lbltitle2>Us</lbltitle2>
+      
+    </Label>
+
+
+    <MenuItem>
+      <MenuItem1>Introduction</MenuItem1>
+      <MenuItem2>Culture</MenuItem2>
+      <MenuItem3>CoreTeam</MenuItem3>
+      <MenuItem4>Services</MenuItem4>
+      <MenuItem5>Ask</MenuItem5>
+    </MenuItem>
+  </Aboutus>
+  <News>
+    <Label>
+
+    </Label>
+    
+  </News>
+
+  <!--Product -->
+  <Product>
+
+    <Label>
+      <lbltitle1>Product</lbltitle1>
+      <lbltitle>Product Features</lbltitle>
+      <lbltitle2>Category</lbltitle2>
+      <lblCurtitle>Pages</lblCurtitle>
+      <lblProductCatetitle>Product Categories</lblProductCatetitle>
+      <lblsBrandNametitle>Brand</lblsBrandNametitle>
+      <lblSensitivity>Sensitivity</lblSensitivity>
+      <lblchannelbalance>Channel Balance</lblchannelbalance>
+      <lblimpedance>Impedance</lblimpedance>
+      <lblfrequencyrange>Frequency Range</lblfrequencyrange>
+      <lblratedpower>Rated Power</lblratedpower>
+      <lblmaximumpower>Maximum Power</lblmaximumpower>
+    </Label>
+  </Product>
+  
+  
+  
+  <!--Partners -->
+  <Partners>
+    <Label>
+
+      <lbltitle>Partners</lbltitle>
+      <Label14>Update The Website Maintenance......</Label14>
+      
+    </Label>
+    
+    
+    
+  </Partners>
+<!--leaveMsg-->
+  <leaveMsg>
+
+    <ShowMsg>
+    <ShowMsgTitle>System Notice</ShowMsgTitle>
+
+    <ShowMsgContent>Add Message Success</ShowMsgContent>
+    <ShowMsgFAILContent>Add Message Fail</ShowMsgFAILContent>
+      <ShowMsgFAILVali>Verification code is mistake</ShowMsgFAILVali>
+      </ShowMsg>
+    <Label>
+      <lbltitle>Client Message</lbltitle>
+      <lblsCompanyName>CompanyName</lblsCompanyName>
+      <lblsContent>Content</lblsContent>
+      <lblsEmail>Email</lblsEmail>
+      <lblsJob>Position</lblsJob>
+      <lblsName>Name</lblsName>
+      <lblsPhone>Phone</lblsPhone>
+      <lblsWeb>Web</lblsWeb>
+    </Label>
+    <Button>
+      <btnSubmit>Submit</btnSubmit>
+
+    </Button>
+  </leaveMsg>
+
+<!--Contact Us -->
+  <ContactUs>
+    <Label>
+      <lbltitle>Contact Us</lbltitle>
+
+      <Label1>Chenen International Trading LTD.</Label1>
+    </Label>
+    
+    
+    
+  </ContactUs>
+  
+  
+  <!-- Jobs-->
+  <Jobs>
+    <Label>
+      <lbltitle>The Job</lbltitle>
+      <Label3>Position Name:</Label3>
+      <Label5>Working Place:</Label5>
+      <Label9>Release Time:</Label9>
+      <Label7>Work Experience:</Label7>
+      <Label13>Salary:</Label13>
+      <Label2>Education:</Label2>
+      <Label11>Recruitment Number:</Label11>
+
+    </Label>
+    <Button>
+      <btnBack>Return</btnBack>
+    </Button>
+    <GridView>
+
+      <Head1>Position</Head1>
+      <Head2>WorkingAddress</Head2>
+      <Head3>Count</Head3>
+      <Head4>JobYear</Head4>
+    </GridView>
+
+  </Jobs>
+
+  <GermanyCy>
+    <Label>
+      <lbltitle>Germany Branch</lbltitle>
+      <lbltemp>Update The Website Maintenance......</lbltemp>
+
+
+    </Label>
+    
+    
+  </GermanyCy>
+  </language>

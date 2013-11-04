@@ -1,0 +1,236 @@
+﻿body 
+{
+    font-family:Arial,微软雅黑, 宋体,sans-serif;
+padding:0;
+font-size:12px;
+margin:0 auto;
+color: #333;
+ 
+ letter-spacing:1px;
+ background:#538136 url('images/header_bg.jpg');
+ background-repeat: repeat-x;
+}
+
+.contain
+{
+    /*background: url(../images/header_top.jpg) no-repeat center top;*/
+width:  959px;
+ 
+ background-color:#fff;
+margin: 20px auto 30px auto;
+padding:15px;
+padding-left:30px;
+padding-right:30px;
+border-radius: 10px;
+}
+/*-----*/
+.head
+{
+     height:50px;
+}
+.head  .logo
+{
+     float:left;
+}
+.head  .right
+{
+      padding-top:10px;
+     float:right;
+}
+.head  .right .BlueTitle
+{
+    color:#0084CD;
+    padding-left:5px;
+    padding-right:5px;
+     font-size:22px;
+}
+.head  .right a
+{
+    text-decoration:none;
+    color:#333;
+}
+.head  .right a:hover
+{
+     text-decoration:underline;
+}
+/*---menu---*/
+.menu
+
+{ margin:0px;
+     border:0px; 
+     padding:0px;
+    margin-top:20px;
+   
+}
+.menu td
+{
+     
+}
+.menucontrol .menuitem  a
+{
+    font-weight:bold;
+    padding:0px;
+     margin:0px;
+    color:#fff;
+    text-decoration:none;
+    background-image:none;
+}
+.menucontrol
+{  width:100%;
+     margin:0px;
+     border:0px; 
+     
+}
+
+.menucontrol .menuitem
+{
+    
+    background:url('images/menubg.gif');
+     float:left;
+    padding-top:12px;
+    padding-bottom:12px;
+    width:119px;
+     margin-right:1px;
+     border:0px; 
+     text-align:center;
+    
+    
+}
+
+.menucontrol .menuitemselected
+{
+    background:url('images/menubg2.gif');
+    /*border-right:1px solid #fff;*/
+     float:left;
+     padding:0px;
+    padding-top:12px;
+    padding-bottom:12px;
+    width:119px;
+     margin-right:1px;
+     border:0px; 
+     text-align:center;
+}
+.menucontrol .menuitemselected  a
+{
+    padding:0px;
+     margin:0px;
+    color:#333;
+    text-decoration:none;
+    background-image:none;
+}
+/*--------------------------------------------------------*/
+.banner
+{
+    /* float:right;*/
+}
+
+/*----------content-------------*/
+.content
+{
+     
+    
+}
+.content .top
+{
+    margin-top:0px;
+     margin-bottom:40px;
+    background:url('images/bannerbottom.gif');
+    height:60px;
+    
+    width:100%;
+
+}
+/*----------content---default----------*/
+.content .divleftwidth
+{
+    float:left;
+    width:590px;
+}
+.divtitle
+{
+     font-size:17px;
+     font-weight:bold;
+     font-family:微软雅黑, 宋体;
+    background-color:#b3e623;
+    color:#fff;
+    padding:3px;
+    padding-top:4px;
+    padding-left:8px;
+    
+}
+.divtitle .lefttitle
+{
+     float:left;
+     width:200px;
+}
+.divtitle .rightmore
+{
+    width:50px;
+    float:right;
+    padding:5px;
+    padding-right:10px;
+    font-size:13px;
+    color:#008FD7;
+    font-weight:normal;
+}
+.divtitle .rightmore a
+{font-size:11px;
+    color:#fff;
+    text-decoration:none;
+    
+}
+.content .divrightwidth
+{
+    float:right;
+    width:330px;
+}
+.newslist
+{
+    width:100%;
+    border-bottom:2px dotted #ccc;
+}
+.newslist img
+{
+    background-color:#fff;
+}
+.newslist a
+{
+    text-decoration:none;
+    color:#333;
+    
+}
+.newslist a:hover
+{
+    text-decoration:undreline;
+    color:#333;
+    
+}
+.styleproductlist
+{
+    text-align:center;
+     padding:5px;
+}
+
+
+.styleproductlist a
+{
+        text-decoration:none;
+        color:#333;
+ }
+     .styleproductlist a:hover
+ {
+        text-decoration:underline;
+        color:#333;
+ }
+/*-------------footer---------------------*/
+.footer
+{
+    margin-top:20px;
+   /* background:url('images/footer.gif');*/
+    height:60px;
+     text-align:center;
+     padding-top:25px;
+    width:100%;
+    color:#333;
+    font-size:13px;
+}

@@ -1,0 +1,195 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="manage_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>丞恩后台管理</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <link href="style/leftmenu.css" rel="stylesheet" type="text/css" />
+    <link href="style/TableStyle1.css" rel="stylesheet" type="text/css" />
+    <link href="style/Button.css" rel="stylesheet" type="text/css" />
+    <link href="style/ShowMessage.css" rel="stylesheet" type="text/css" />
+    <link href="style/ListView.css" rel="stylesheet" type="text/css" />
+    <link href="style/GridView.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+    <div class="navleft">
+    <asp:LinkButton ID="LinkButton1" runat="server" Text="蓝图"  
+            ForeColor="#0066FF"></asp:LinkButton>
+    
+        <asp:LinkButton ID="lbtnLogo" runat="server" Text="科技管理面板"></asp:LinkButton>
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    </div>
+    <div class="navmid">
+    
+        <%--<asp:Label ID="Label1" runat="server" Text="正在使用用户:"></asp:Label>   
+          <asp:LinkButton ID="lbtnuser" runat="server" Text="user"></asp:LinkButton>
+          &nbsp;&nbsp;--%>
+          <div style=" float:left; padding:3px;">
+         <asp:Image ID="Image1" runat="server" ImageUrl="~/manage/style/images/icon/clock.png" />
+         </div>
+    <script language="javascript">
+        function showtime() {
+            var today, hour, second, minute, year, month, date;
+            var strDate;
+            today = new Date();
+            var n_day = today.getDay();
+            switch (n_day) {
+                case 0:
+                    {
+                        strDate = "星期日"
+                    } break;
+                case 1:
+                    {
+                        strDate = "星期一"
+                    } break;
+                case 2:
+                    {
+                        strDate = "星期二"
+                    } break;
+                case 3:
+                    {
+                        strDate = "星期三"
+                    } break;
+                case 4:
+                    {
+                        strDate = "星期四"
+                    } break;
+                case 5:
+                    {
+                        strDate = "星期五"
+                    } break;
+                case 6:
+                    {
+                        strDate = "星期六"
+                    } break;
+                case 7:
+                    {
+                        strDate = "星期日"
+                    } break;
+            }
+            year = today.getFullYear(); ;
+            month = today.getMonth() + 1;
+            date = today.getDate();
+            hour = today.getHours();
+            minute = today.getMinutes();
+            second = today.getSeconds();
+            if (month < 10) month = "0" + month;
+            if (date < 10) date = "0" + date;
+            if (hour < 10) hour = "0" + hour;
+            if (minute < 10) minute = "0" + minute;
+            if (second < 10) second = "0" + second;
+            document.getElementById('time').innerHTML = year + "年" + month + "月" + date + "日 " + " " + hour + ":" + minute + ":" + second; //显示时间 
+            setTimeout("showtime();", 1000); //设定函数自动执行时间为 1000 ms(1 s) 
+        } 
+</script>
+
+<div id="time" style=" float:left;"> </div>
+
+<script language="javascript">    showtime();</script> 
+
+   
+    </div>
+    <div class="navright">
+    
+        <asp:ImageButton ID="ImageButton1" runat="server" 
+            ImageUrl="~/manage/style/images/b0001b.png" Width="40px"  />
+    </div>
+
+
+    </div>
+    <div class="main">
+    <div class="leftbar">
+    
+       
+        <asp:Menu ID="Menu2" runat="server" ItemWrap="True">
+            <Items>
+                <asp:MenuItem ImageUrl="~/manage/style/images/icon/homepagebig.png" Text="回到主页"  NavigateUrl="~/manage/Default.aspx"
+                    Value="1"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/manage/style/images/icon/homepagebig.png" 
+                    NavigateUrl="~/Default.aspx" Text="进入前台" Value="进入前台"></asp:MenuItem>
+                <asp:MenuItem ImageUrl="~/manage/style/images/icon/personbig.png" Text="修改密码" 
+                    Value="2"></asp:MenuItem>
+                
+            </Items>
+            <StaticMenuItemStyle  CssClass="staticItemStlye"/>
+            <%--<StaticHoverStyle  CssClass="staticItemStlyeHover"/>
+            <StaticSelectedStyle  CssClass="staticItemStlyeHover"/>--%>
+        </asp:Menu>
+    </div>
+    <div class="midbar">
+        <asp:Menu ID="Menu1" runat="server" CssClass="leftmenu" StaticDisplayLevels="1"  orientation="Vertical"
+         MaximumDynamicDisplayLevels="1"  StaticEnableDefaultPopOutImage="False"  
+         disappearafter="1000" >
+            <Items>
+                <asp:MenuItem Text="回到首页" Value="回到首页" NavigateUrl="~/manage/Default.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="管理企业信息" Value="管理企业信息">
+                    <asp:MenuItem NavigateUrl="~/manage/AboutUs/Introduction.aspx" Text="公司介绍" 
+                        Value="公司介绍"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/manage/AboutUs/Culture.aspx" Text="企业文化" 
+                        Value="企业文化"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/manage/AboutUs/CoreTeam.aspx" Text="核心团队" 
+                        Value="核心团队"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/manage/AboutUs/Services.aspx" Text="提供服务" 
+                        Value="提供服务"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="管理新闻动态" Value="管理新闻动态">
+                    <asp:MenuItem Text="添加新闻" Value="添加新闻" 
+                        NavigateUrl="~/manage/News/AddDataNews.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="新闻列表" Value="新闻列表" 
+                        NavigateUrl="~/manage/News/DataListNews.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="管理展示产品" Value="管理展示产品">
+                    <asp:MenuItem Text="添加产品" Value="添加产品" 
+                        NavigateUrl="~/manage/Products/AddDataProducts.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="产品列表" Value="产品列表" 
+                        NavigateUrl="~/manage/Products/DataListProduct.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="管理合作伙伴" Value="管理合作伙伴">
+                    <asp:MenuItem Text="添加伙伴" Value="添加伙伴" 
+                        NavigateUrl="~/manage/Partners/AddDataPartners.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="伙伴列表" Value="伙伴列表" 
+                        NavigateUrl="~/manage/Partners/DataListPartners.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="管理人才招聘" Value="管理人才招聘">
+                    <asp:MenuItem Text="添加招聘" Value="添加招聘" 
+                        NavigateUrl="~/manage/Job/AddDataJob.aspx"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/manage/Job/DataListJob.aspx" Text="招聘列表" 
+                        Value="招聘列表"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="管理常见疑问" Value="管理常见疑问">
+                    <asp:MenuItem NavigateUrl="~/manage/FAQ/AddDataFAQ.aspx" Text="添加疑问" 
+                        Value="添加疑问"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/manage/FAQ/DataListFAQ.aspx" Text="疑问列表" 
+                        Value="疑问列表"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/manage/Messages/DataListMessages.aspx" 
+                    Text="管理客户留言" Value="管理客户留言"></asp:MenuItem>
+            </Items>
+            <StaticMenuItemStyle   CssClass="mainmenu"/>
+        <StaticMenuStyle CssClass="mainmenu"/>
+        <%--  <StaticSelectedStyle   />
+        <StaticHoverStyle  />--%>
+        <DynamicMenuItemStyle    CssClass="popmenuitem" />
+        <DynamicMenuStyle   CssClass="popmenu" />
+       
+        </asp:Menu>
+    
+    
+    </div>
+    <div class="rightdiv">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    </form>
+</body>
+</html>

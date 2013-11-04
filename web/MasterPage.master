@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>星族</title><link href="style/master.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript" src="js/flash.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="contain">
+    <div class="head">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    <div class="logo">
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/style/images/Logo.jpg" />
+        </div>
+    <div class="right">
+        <asp:Image
+            ID="Image1" runat="server" ImageUrl="~/style/images/balcksanjiao.gif" 
+            Visible="False" />
+        <asp:LinkButton
+                ID="lbtncn" runat="server" Text="中文" onclick="lbtncn_Click"></asp:LinkButton><asp:Label ID="Label2"
+                    runat="server" Text="/"></asp:Label><asp:LinkButton ID="lbtnen" 
+            runat="server" Text="英文" onclick="lbtnen_Click"></asp:LinkButton>
+      <a href="#" onclick="javascript:window.external.AddFavorite('http://chenen.com','中山市丞恩电子有限公司')"
+       title=收藏本站到你的收藏夹">
+          <asp:Label ID="lbtnshoucang" runat="server" Text="Label"></asp:Label></a>   </div>
+    </div>
+    
+    <%--menu--%>
+    <div class="menu">
+        <asp:Menu ID="Menu5" runat="server"  StaticDisplayLevels="1" MaximumDynamicDisplayLevels="1"  
+        disappearafter="500"    orientation="Horizontal" CssClass="menucontrol">
+            <Items>
+                <asp:MenuItem Text="1" Value="1" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="2" Value="2" NavigateUrl="~/Aboutus.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="3" Value="3" NavigateUrl="~/GermanyCy.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="4" Value="4" NavigateUrl="~/Product.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="5" Value="5" NavigateUrl="~/Partners.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="6" Value="6" NavigateUrl="~/leaveMsg.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="7" Value="7" NavigateUrl="~/Jobs.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="8" Value="8" NavigateUrl="~/ContactUs.aspx"></asp:MenuItem>
+            </Items>
+          
+            <StaticMenuItemStyle  CssClass="menuitem" />
+          <StaticSelectedStyle  CssClass="menuitemselected" />
+        <StaticHoverStyle CssClass="menuitemselected" />
+    
+        </asp:Menu>
+    <%--<ul>
+    <li>
+        <asp:LinkButton ID="LinkButton4" runat="server">LinkButton</asp:LinkButton></li>
+        <li>
+        <asp:LinkButton ID="LinkButton5" runat="server">LinkButton</asp:LinkButton></li>
+        <li>
+        <asp:LinkButton ID="LinkButton6" runat="server">LinkButton</asp:LinkButton></li>
+        <li>
+        <asp:LinkButton ID="LinkButton7" runat="server">LinkButton</asp:LinkButton></li>
+         <li>
+        <asp:LinkButton ID="LinkButton3" runat="server">LinkButton</asp:LinkButton></li>
+         <li>
+        <asp:LinkButton ID="LinkButton8" runat="server">LinkButton</asp:LinkButton></li>
+    </ul>--%>
+    </div>
+    <div class="banner">
+   
+<script language="javascript" type="text/javascript">
+    writeflashhtml("_swf=swf/v.swf", "_width=959", "_height=320", "_wmode=transparent");
+</script>
+    </div>
+    <div class="content">
+    <div style=" background:#ccff99; height:20px; width:100%"></div>
+    <div style=" background:#ffffff; height:30px; width:100%"></div>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+
+    <asp:Label ID="lblfooter" runat="server" Text="Label"></asp:Label>
+    
+</div>
+    </div>
+
+   
+    </form>
+</body>
+</html>

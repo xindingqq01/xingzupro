@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language value="English">
+
+  <!--MasterPage -->
+  <MasterPage>
+    <Button>
+      <btnSearch>查找</btnSearch>
+      <btnLogin>登陆管理面板</btnLogin>
+      
+    </Button>
+    <Label>
+      <lblserphone>服务热线</lblserphone>
+      <lbtnshoucang>收藏</lbtnshoucang>
+      <lbltemp>网站更新维护中...</lbltemp>
+      <lblfooter>
+        ◎2008-2010 中山市丞恩电子有限公司 版权所有 翻版必究 (粤ICP备05132975号-1)</lblfooter>
+      <Label1>0760-22222813</Label1>
+    </Label>
+    <MenuItem>
+      <MenuItem1>首页</MenuItem1>
+      <MenuItem2>关于我们</MenuItem2>
+      <MenuItem3>德国分公司</MenuItem3>
+      <MenuItem4>产品介绍</MenuItem4>
+      <MenuItem5>合作伙伴</MenuItem5>
+      <MenuItem6>客户留言</MenuItem6>
+      <MenuItem7>人才招聘</MenuItem7>
+      <MenuItem8>联系我们</MenuItem8>
+    </MenuItem>
+    <LinkButton>
+      <lbtncn>
+
+        中文
+      </lbtncn>
+      <lbtnen>
+        English
+
+      </lbtnen>
+
+    </LinkButton>
+  </MasterPage>
+
+  <!--Default -->
+  <Default>
+
+    <Label>
+      <lbltitleproduct>产品展示</lbltitleproduct>
+      <lblnewsTitle>企业动态</lblnewsTitle>
+      <lblsAboutus>关于我们</lblsAboutus>
+      <lblContactus>联系我们</lblContactus>
+      <lblcontitle1>丞恩</lblcontitle1>
+      <lblcontitle2>航空</lblcontitle2>
+      <lblcontitle3>酒店</lblcontitle3>
+      <lblcontitle4>用品有限公司</lblcontitle4>
+
+
+      <lblsAddrtitle>公司地址：</lblsAddrtitle>
+      <lblsAddr>广东省中山市东升镇永华路52号</lblsAddr>
+      <lblsPhonetitle>销售热线：</lblsPhonetitle>
+      <lblsPhone>+86-0760-22222813</lblsPhone>
+      <lblsFaxtitle>传真号码：</lblsFaxtitle>
+      <lblsFax>+86-0760-22222689</lblsFax>
+      <lblsWebtitle>公司网址：</lblsWebtitle>
+      <lblsWeb>www.chenen.com</lblsWeb>
+      <lblsEmailtitle>公司邮箱：</lblsEmailtitle>
+      <lblsEmail>benhsiao@chenen.com</lblsEmail>
+
+    </Label>
+
+
+  </Default>
+
+  <!--Aboutus -->
+  <Aboutus>
+
+    <Label>
+      <lbltitle1>关于</lbltitle1>
+
+      <lbltitle2>我们</lbltitle2>
+
+    </Label>
+
+
+
+
+    <MenuItem>
+      <MenuItem1>公司介绍</MenuItem1>
+      <MenuItem2>企业文化</MenuItem2>
+      <MenuItem3>核心团队</MenuItem3>
+      <MenuItem4>提供服务</MenuItem4>
+      <MenuItem5>常见疑问</MenuItem5>
+    </MenuItem>
+  </Aboutus>
+  <News>
+    <Label>
+
+    </Label>
+
+  </News>
+
+  <!--Product -->
+  <Product>
+
+    <Label>
+      <lbltitle1>产品</lbltitle1>
+      <lbltitle>产品特性</lbltitle>
+      <lbltitle2>类别</lbltitle2>
+      <lblCurtitle>页数</lblCurtitle>
+      <lblProductCatetitle>产品类别</lblProductCatetitle>
+      <lblsBrandNametitle>品牌</lblsBrandNametitle>
+      <lblSensitivity>灵敏度</lblSensitivity>
+      <lblchannelbalance>耳差</lblchannelbalance>
+      <lblimpedance>抗阻</lblimpedance>
+      <lblfrequencyrange>频率范围</lblfrequencyrange>
+      <lblratedpower>额定功率</lblratedpower>
+      <lblmaximumpower>最大功率</lblmaximumpower>
+    </Label>
+  </Product>
+
+
+  <!--Partners -->
+  <Partners>
+    <Label>
+
+      <lbltitle>合作伙伴</lbltitle>
+      <Label14>资料更新维护中......</Label14>
+
+    </Label>
+
+
+
+  </Partners>
+
+  <!--leaveMsg-->
+  <leaveMsg>
+    <ShowMsg>
+    <ShowMsgTitle>系统通知</ShowMsgTitle>
+
+    <ShowMsgContent>添加信息成功</ShowMsgContent>
+      <ShowMsgFAILContent>添加信息成功</ShowMsgFAILContent>
+      <ShowMsgFAILVali>输入验证码错误</ShowMsgFAILVali>
+    </ShowMsg>
+    <Label>
+      <lbltitle>客户留言</lbltitle>
+      <lblsCompanyName>所属公司</lblsCompanyName>
+      <lblsContent>留言内容</lblsContent>
+      <lblsEmail>电子邮件</lblsEmail>
+      <lblsJob>你的职位</lblsJob>
+      <lblsName>你的姓名</lblsName>
+      <lblsPhone>联系电话</lblsPhone>
+      <lblsWeb>公司网址</lblsWeb>
+    </Label>
+    <Button>
+      <btnSubmit>提交</btnSubmit>
+      
+    </Button>
+  </leaveMsg>
+
+
+  <!--Contact Us -->
+  <ContactUs>
+    <Label>
+      <lbltitle>联系我们</lbltitle>
+      <Label1>中山市丞恩电子有限公司</Label1>
+
+    </Label>
+
+
+
+  </ContactUs>
+
+  <!-- Jobs-->
+  <Jobs>
+    <Label>
+      <lbltitle>招聘职位</lbltitle>
+      <Label3>职位名称:</Label3>
+      <Label5>工作地点:</Label5>
+      <Label9>发布时间:</Label9>
+      <Label7>工作经验:</Label7>
+      <Label13>月薪:</Label13>
+      <Label2>学历:</Label2>
+      <Label11>招聘人数:</Label11>
+    </Label>
+    <Button>
+      <btnBack>返回</btnBack>
+    </Button>
+   
+    <GridView>
+
+      <Head1>职位</Head1>
+      <Head2>工作地点</Head2>
+      <Head3>招聘人数</Head3>
+      <Head4>工作年限</Head4>
+    </GridView>
+
+  </Jobs>
+  <GermanyCy>
+    <Label>
+      <lbltitle>德国分公司</lbltitle>
+      <lbltemp>资料更新维护中......</lbltemp>
+
+
+    </Label>
+
+
+  </GermanyCy>
+</language>

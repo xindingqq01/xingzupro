@@ -1,0 +1,58 @@
+﻿.treeview
+{
+    padding-top:30px;
+    width:230px;
+     float:left;
+}
+.treeview .parentnode a
+{
+    
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+    padding-left:20px;
+    background-image:url('images/newsfront.gif')  ;
+      background-position:center left;
+      background-repeat:no-repeat;
+}
+
+.treeview .parentnode
+{
+     padding:5px;
+     padding-left:0px;
+     width:220px;
+      
+      
+     font-size:14px;
+     border-bottom:2px dotted #ccc;
+    
+}
+.treeview .parentnodeselected
+{
+     background-color:#EEEEEF;
+}
+
+
+
+/*---*/
+.treeview .leafnode a
+{
+    
+    text-decoration:none;
+    color:#333;
+    font-size:14px;
+    padding-left:20px;
+    
+}
+
+.treeview .leafnode
+{
+     padding:5px;
+     padding-left:0px;
+     width:190px;
+      
+      
+     font-size:14px;
+     border-bottom:2px dotted #ccc;
+    
+}

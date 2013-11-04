@@ -1,0 +1,38 @@
+﻿.gvheadtemplated 
+{
+     color:#ffffff;
+     text-align:left;
+  /*    background:  url('images/TableHead.png') top left repeat-x !important;
+    border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-top: 1px solid #333333;*/
+outline:none;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+ background-color:#515f90;
+}
+
+.gvheadtemplated a
+{
+    
+    text-align:left;
+    outline:none;
+    color:#ffffff;
+}
+.gvheadtemplated a:hover 
+{
+    
+    outline:none;
+    color:#993333;
+}
+.gvheadtemplated a:active 
+{
+    outline:none;
+    color:#ffffff;
+}
+.gvRowtemplate 
+{
+    background-color:#fff;
+    vertical-align:top;
+    text-align:left;
+}

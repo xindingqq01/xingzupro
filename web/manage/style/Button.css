@@ -1,0 +1,106 @@
+﻿.btnLightBlue
+{
+    margin:1px;
+     font-weight:bold;
+     border-style:none;
+    padding:4px 7px 4px 7px;
+background: #60c8f2;
+color: white;
+border-radius: 6px;
+}
+.btnLightBlue:hover
+{
+    background: #90c8f2;
+    color: white;
+}
+
+
+.btnBlue
+{border-radius: 6px;
+    margin:1px;
+     font-weight:bold;
+     border-style:none;
+    padding:4px 7px 4px 7px;
+background: #515f90;
+color: white;
+}
+.btnBlue:hover
+{
+    background: #fff;
+    color: #3399ff;
+}
+.btnGreen
+{border-radius: 6px;
+    margin:1px;
+     font-weight:bold;
+     border-style:none; padding:4px 7px 4px 7px;
+background: #99cc00;
+color: white;
+}
+.btnGreen:hover
+{
+    background: #76be05;
+    color: white;
+}
+.btnOrange
+{border-radius: 6px;
+    margin:1px;
+     font-weight:bold;
+     border-style:none;
+    padding:4px 7px 4px 7px;
+background: #ff9933;
+color: white;
+}
+.btnOrange:hover
+{
+    background: #ff6600;
+    color: white;
+}
+
+
+.btnDelsthmb
+{
+     background:url('../images/thmb/del2.gif') no-repeat;
+     background-position:left;
+     border-style:none;
+    padding:2px 14px 2px 14px;
+      background: #fff;
+}
+.btnDelsthmb:hover
+{
+     background:url('../images/thmb/del2.gif') no-repeat;
+    background-position:left;
+      
+}
+
+
+.btndarkRed
+{
+    margin:1px;
+     font-weight:bold;
+     border-style:none;
+    padding:4px 7px 4px 7px;
+background: #da251c;
+color: white;
+}
+
+.btndarkRed:hover
+{
+    background: #ff2e24;
+    color: white;
+}
+.btndark
+{
+    margin:1px;
+     font-weight:bold;
+     border-style:none;
+    padding:4px 7px 4px 7px;
+background: #eeeeee;
+color: #333;
+}
+
+.btndark:hover
+{
+    background: #cccccc;
+    color: #333;
+}

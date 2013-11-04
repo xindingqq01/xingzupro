@@ -1,0 +1,67 @@
+﻿.leftmenu
+{
+
+
+      border:0px;
+      margin:0px;
+      font-size:14px;
+}
+.leftmenu .mainmenu
+{
+    background:#515f90;                
+     color: #ffffff;
+     border-radius: 6px;
+     background-position:center;
+     width:200px;
+     height:20px;
+     padding:6px 5px 6px 5px;
+     margin-top:4px;
+      margin-bottom:4px;
+     text-align:center;
+    font-size:14px;
+}
+.leftmenu .mainmenu a
+{
+     font-weight:bold;
+     color:#fff;
+}
+.leftmenu .mainmenuselected
+{
+   
+}
+.leftmenu .mainmenuselected a
+{
+   /* background: url('images/mainnav_bg2.gif') no-repeat left center ;*/
+    background-image:none;
+       font-weight:bold;
+     color:#fff;
+}
+.leftmenu .mainmenu a:hover
+{
+  
+}
+ .popmenu 
+{
+    background:#fff;
+    border:2px solid #666;
+    font-size:14px;
+    text-align:center;
+    color:#333;
+    border-radius: 6px;
+     
+}
+ .popmenu  a
+{
+    color:#333;
+}
+.popmenuitem 
+{
+    font-size:14px;
+    padding:6px 20px 6px 20px;
+}
+ .popmenuitem:hover 
+{
+    color:#fff;
+     background:#515f90;
+     border-radius: 5px;
+}

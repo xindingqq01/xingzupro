@@ -1,0 +1,69 @@
+﻿.divCenterOne
+{
+    width:800px;
+    margin:20px auto;
+}
+.divCenterOne .divvCenterOnetitle
+{ 
+    font-size:19px;
+    color:#409fbd;
+     padding:8px;
+      width:784px;
+      border-bottom:2px solid #ccc;
+       margin-bottom:10px;
+       letter-spacing:2px;
+ }
+.divCenterOne .divimg
+{
+     border-radius:8px;
+     margin:3px;
+    
+     border:1px solid #ccc;
+     
+}
+.divCenterOne img
+{
+     border-radius:8px;
+     background-color:#ccc;
+}
+.datalist 
+{
+    padding:1px;
+     vertical-align:top;
+}
+.toptitle
+{
+    padding-left:10px;
+    padding-top:10px;
+    font-size:19px;
+     font-weight:normal;
+     color:#fff;
+}
+.rtitle1
+{
+    font-size:19px;
+    border-bottom:2px solid #ccc;
+}
+
+
+.leavetable
+{
+    width:800px;
+    margin:10px auto;
+}
+
+.leavetable td
+{
+     padding:3px;
+}
+.leavetable td .textbox
+{
+     width:200px;
+}
+
+.leavetable .titletd
+
+{
+    width:150px;
+    text-align:right;
+}
